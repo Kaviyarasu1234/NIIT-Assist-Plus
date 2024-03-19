@@ -1,0 +1,157 @@
+.register-form {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin: 0;
+     padding: 0;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     color: white;
+
+     p{
+          // I have removed default styles in here
+          margin: 0;
+          padding: 0;
+          font-size: inherit;
+          font-weight: inherit;
+          line-height: inherit;
+     }
+
+     input {
+          // I have removed default styles in here
+          appearance: none;
+          border: none;
+          outline: none;
+          background: none;
+          font-family: inherit;
+          font-size: inherit;
+          padding: 0;
+          margin: 0;
+          color: inherit;
+
+          // I have addded custom styles in here
+          &::placeholder{
+               color: black;
+               font-size: 14px;
+          }
+     }
+   
+     button {
+          appearance: none;
+          border: none;
+          border-radius: 0;
+          outline: none;
+          background: none;
+          font-family: inherit;
+          font-size: inherit;
+          padding: 0;
+          margin: 0;
+          color: inherit;
+          cursor: pointer;
+     }
+     .intro{
+          width: 100%;
+          box-sizing: border-box;
+          padding-bottom: 13px;
+          margin-bottom: 8px;
+          border-bottom: 1px solid rgba(255, 255, 255, 0.479);
+          p{
+               box-sizing: border-box;
+               width: 100%;
+               font-size: 13px;
+               font-weight: bold;
+               padding: 2px 5px;
+               text-align: left;
+          }
+          h2{
+               box-sizing: border-box;
+               width: 100%;
+               font-size: 22px;
+               font-weight: bolder;
+               text-align: left;
+               padding: 2px 5px;
+          }
+     }
+     .title{
+          width: 100%;
+          padding: 10px 0px;
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+          box-sizing: border-box;
+          p{
+               box-sizing: border-box;
+               padding: 0px 5px;
+               width: 100%;
+               font-size: 12px;
+               font-weight: bolder;
+               text-align: left;
+          }
+     }
+     .input {
+          width: 100%;
+          height: 50px;
+          border: 1px solid grey;
+          margin-bottom: 8px;
+          background-color: white;
+          border-radius: 5px;
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+
+          input{
+               box-sizing: border-box;
+               padding: 2px;
+               font-size: 12px;
+               text-indent: 8px;
+               color: black;
+          }
+     }
+     .single{
+          p{
+               width: 100%;
+          }
+          
+          input{
+               width: 100%;
+          }
+     }
+     .double{
+          p{
+               width: 50%;
+          }
+
+          input:first-child {
+               border-right: 1px solid black;
+          }
+          input{
+               width: 50%;
+          }
+     }
+     
+     .submit{
+          font-size: 13px;
+          cursor: pointer;
+          border-radius: 5px;
+          background-color: rgb(0, 21, 48);
+
+          width: 100%;
+          height: 45px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 5px;
+          margin-top: 12px;
+
+          &:hover {
+               background: rgb(15, 36, 56);
+          }
+
+          button {
+               width: 100%;
+               height: 45px;
+               border-radius: 5px;
+               color: white;
+          }
+     }
+}
+   
