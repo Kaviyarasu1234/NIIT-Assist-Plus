@@ -1,0 +1,235 @@
+.contact-div{
+   
+    height: 100vh;
+    background-color: white;
+ }
+ .contact {
+   position: relative;
+   top: 1rem;
+   bottom: 2rem;
+   left: 12rem;
+   display: flex;
+   height: 85vh;
+   width: 140vh;
+   
+   
+   border-radius: 1rem;
+ 
+   border-top: 1px solid rgba(14, 71, 107, 0.1);
+  
+   background-color: #2b53514a; 
+ }
+ 
+ .contact_title {
+   /* padding-top: 3rem; */
+   position: relative;
+  top: 1rem;
+   text-align: center;
+   font-size: 2rem;
+   /* margin-bottom: 5px; */
+   color: var(--title-color);
+  
+ }
+ 
+ .contact_subtitle {
+   position: relative;
+  top: 2rem;
+   text-align: center;
+   color: var(--text-color);
+   /* padding-bottom: -3rem; */
+ } 
+ 
+  .contact_container {
+  
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 20px; 
+  
+  
+ }
+ 
+ .contact_content {
+   display: flex;
+   flex-direction: column;
+   align-items: normal;
+   max-width: 500px;
+ }
+ 
+ .info_title {
+   font-size: 1.5rem;
+   color: var(--title-color);
+   margin-bottom: 20px;
+   padding-left: 1rem;
+   padding-bottom: 1rem;
+ }
+ 
+ .contact_card {
+   text-align: center;
+   margin-bottom: 10px;
+   background-color: var(--container-color);
+   border: 1px solid rgba(0, 0, 0, 0.1);
+   padding:1rem;
+   border-radius: 0.75rem;
+   text-align: center;
+   width: 300px;
+   margin-left: 5.5rem;
+   border-radius: 0.75rem;
+   background-color: cadetblue;
+ }
+ 
+ .contact_icon_title {
+   font-size: 1.2rem;
+   margin-bottom: 5px;
+   color: var(--title-color);
+ }
+ 
+ .contact_icon_email {
+   color: var(--text-color);
+   padding-left: 5px;
+   font-size: 0.9rem;
+ }
+ 
+ .contact_button {
+   display: inline-block;
+   margin-top: 10px;
+   text-decoration: none;
+   color: var(--text-color);
+   padding-left: 12px;
+ }
+ 
+ .contact_form {
+   max-width: 400px; 
+ }
+ .contact_form-div {
+   margin-bottom: 20px;
+   padding-left: 5rem;
+ 
+ }
+ 
+ .contact_form-tag {
+   font-size: 1rem;
+   
+   color: var(--title-color);
+   
+ }
+ .contact_form-input{
+   width: 130%;
+   height: 53px;
+   padding: 10px;
+   padding-left: 20px;
+   border: 1px solid #cec8c8;
+   border: 1px solid #222121;
+   border-radius: 14px;
+   margin-top: 5px;
+   font-size: 1rem;
+ }
+ 
+ .contact_form textarea {
+   width: 130%;
+   height: 120px;
+   padding: 10px;
+   border: 1px solid #222121;
+   border-radius: 10px;
+   margin-top: 5px;
+   font-size: 1rem;
+ } 
+ 
+ 
+ .form_title{
+   position: relative;
+   left: 2rem;
+   padding-left: 2.5rem;
+   padding-bottom: 2rem;
+   font-size: 1.2rem;
+ }
+ 
+ 
+ 
+ body {
+   font-size: 14px; /* Adjust the base font size */
+ }
+ 
+ /* Update other styles to scale down elements */
+ .contact {
+   padding: 40px 0; /* Adjust padding */
+ }
+ 
+ .contact_title {
+   font-size: 1.5rem; /* Adjust title font size */
+   margin-bottom: 8px; /* Adjust margin */
+ }
+ 
+ .contact_subtitle {
+   font-size: 1rem; /* Adjust subtitle font size */
+   margin-bottom: 20px; /* Adjust margin */
+ }
+ 
+ .contact_container {
+   gap: 10px; /* Adjust gap between columns */
+   padding-left: 0.5rem; /* Adjust padding */
+ }
+ 
+ .info_title {
+   font-size: 1.2rem; /* Adjust font size */
+   margin-bottom: 15px; /* Adjust margin */
+   padding-left: 12.4rem; /* Adjust padding */
+ }
+ 
+ .contact_card_wrapper {
+   padding: 10px; /* Adjust padding for card wrapper */
+   margin-bottom: 15px; /* Adjust margin for card wrapper */
+ }
+ 
+ .contact_card {
+   margin-bottom: 8px; /* Adjust margin for card */
+ }
+ 
+ .contact_icon_title {
+   font-size: 1rem; /* Adjust font size */
+   margin-bottom: 4px; /* Adjust margin */
+ }
+ 
+ .contact_icon_email {
+   font-size: 0.9rem; /* Adjust font size */
+ }
+ 
+ .contact_button {
+   margin-top: 8px; 
+    
+    /* Adjust margin for button */
+ }
+ 
+ .contact_form {
+   max-width: 350px; /* Adjust max width of the form */
+ }
+ 
+ .contact_form-tag {
+   font-size: 0.9rem; /* Adjust font size */
+   margin-bottom: 4px;
+   padding: 8px;
+   font-size: 1rem; /* Adjust padding */
+ 
+    /* Adjust margin */
+ }
+ 
+ .contact_form-input,
+ .contact_form textarea {
+   padding: 18px; /* Adjust padding */
+   font-size: 0.9rem;
+    /* Adjust font size */
+ }
+ 
+ .form_button {
+   width: 8rem;
+   height: 4rem;
+   font-size: 1.1rem;
+   position: relative;
+   left: 5rem;
+   background-color: azure;
+   border: none;
+   border-radius: .4rem;
+   background-color: rgb(68, 96, 148);
+   color: white;
+   padding-bottom: 5px;
+   padding-left: 5px;
+ }

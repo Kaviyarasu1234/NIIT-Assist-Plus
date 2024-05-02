@@ -1,0 +1,15 @@
+.view-form{
+    .texts{
+        overflow: scroll;
+        scrollbar-width: none;
+        
+        .view-text{
+            padding: 5px 10px;
+            box-sizing: border-box;
+        }
+        .description-text{
+            height: 150px;
+            box-sizing: border-box;
+        }
+    }
+}
